@@ -1,0 +1,18 @@
+version: "0"
+services:
+  jenkins:
+    restart: always
+    image: jenkins
+    container_name: jenkins
+    expose:
+      - "8080"
+      - "50000"
+    ports:
+      - "8080:8080"
+      - "50000:50000"
+    environment:
+      JAVA_OPTS: "-Djava.awt.headless=true -Duser.timezone=Asia/Shanghai"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /usr/bin/docker:/usr/bin/docker:ro
+      - ../data/jenkins:/var/jenkins_home
