@@ -9,4 +9,4 @@ sudo apt-get install gnupg2 pass
 sudo docker login -u zhanglinng666 -p sihaoshi2b
 sudo apt-get install docker-compose
 sudo docker -version
-sudo docker-compose config
+sudo docker-compose vesion
