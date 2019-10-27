@@ -17,3 +17,4 @@ services:
       - /usr/bin/docker:/usr/bin/docker:ro
       - ../data/jenkins:/var/jenkins_home
       - /usr/bin/docker-compose:/usr/bin/docker-compose
+      - /usr/lib/python2.7:/usr/lib/python2.7
