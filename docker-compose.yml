@@ -16,6 +16,3 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
       - /usr/bin/docker:/usr/bin/docker:ro
       - ../data/jenkins:/var/jenkins_home
-      - /usr/lib/python2.7:/usr/lib/python2.7
-      - /usr/bin/python:/usr/bin/python
-      - /usr/bin/docker-compose:/usr/bin/docker-compose
