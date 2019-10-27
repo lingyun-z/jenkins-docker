@@ -7,4 +7,4 @@ sudo rm get.docker.sh
 sudo apt-get install gnupg2 pass
 sudo apt-get install docker-compose
 sudo docker -version
-sudo docker-compose config
+sudo docker-compose version
