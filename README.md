@@ -5,7 +5,7 @@ In jenkins image, docker has been bound to the host and docker-compose has been 
 We can deploy docker project with docker-compose in the jenkins container.  
 
 ```
-  git clone https://github.com/LanLanMika/jenkins-docker.git
+  git clone https://github.com/lingyun-z/jenkins-docker.git
   cd jenkins-docker && sudo bash docker-install.sh
   sudo bash install.sh
 ```
